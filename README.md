@@ -1,35 +1,87 @@
-📌 Project Description
+My BlogHub
 
-The goal of this project is to create a Blog Web Application using Node.js, Express.js, and EJS.
-The application allows users to create and view blog posts.
+A simple blog web application built with Node.js, Express.js, and EJS.
+This project allows users to create, view, edit, and delete blog posts with a clean and minimal interface.
 
-Posts do not persist between sessions because no database is used in this version of the application.
 
-✨ Features
+ Project Description
 
-Post Creation – Users can create new blog posts.
+My BlogHub is a beginner-friendly blog application designed to demonstrate core backend concepts using Node.js and Express.
+Posts are stored in memory, so they do not persist after restarting the server.
 
-Post Viewing – The home page displays all created posts.
 
-Post Update & Deletion – Users can edit and delete posts as needed.
+ Features
+		Create new blog posts
+		View all blog posts on the home page
+		Edit existing posts
+		Delete posts
+		Simple and clean UI using EJS templates
 
-🛠 Technologies Used
 
-Node.js
 
-Express.js
+Technologies Used
+		Node.js
+		Express.js
+		EJS
+		Body-parser
 
-EJS
 
-🚀 Running the Project Locally
-1. Install Dependencies
+ Getting Started
+
+Follow the steps below to run the project locally.
+
+ Installation
+
+Clone the repository
+
+```
+git clone https://github.com/your-username/my-bloghub.git
+```
+
+Navigate into the project directory
+```
+cd My-bloghub
+```
+Install dependencies
+```
 npm install
-
-2. Run the Server
+```
+ Running the Project
+```
 nodemon index.js
-
-3. Access the Application
-
+```
 Open your browser and visit:
-
+```
 http://localhost:3000
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
